@@ -1,0 +1,29 @@
+{
+    "name": "bulton-fr/doctrine_yield",
+    "type": "library",
+    "description": "Add a system to yield results with Doctrine",
+    "homepage": "https://github.com/bulton-fr/doctrine_yield",
+    "time": "2019-04-12",
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+            "name": "Vermeulen Maxime / Bulton",
+            "homepage": "http://www.bulton.fr",
+            "email": "bulton.fr@gmail.com"
+        }
+    ],
+    "support": {
+        "email": "support@bulton.fr",
+        "issues": "https://github.com/bulton-fr/doctrine_yield/issues",
+        "source": "https://github.com/bulton-fr/doctrine_yield"
+    },
+    "require": {
+        "php": "^7.0",
+        "doctrine/orm": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "BultonFr\\DoctrineYield\\": "src/"
+        }
+    }
+}
